@@ -21,9 +21,12 @@
     <div class="page-container">
       <h1>Password generator</h1>
       <div class="container">
-        <div class="row">
-          <div class="col-8">
-            <label for="charLength">Choose your char lenght</label>
+        <div class="row">   
+          <div class="col-6">
+            <label for="charLength">Password length</label>
+          </div>
+          <div class="col-2">
+            <span id="passwordLengthDisplay">50</span>
           </div>
           <div class="col-4 text-center">
             <input type="range" id="charLength" />
@@ -53,7 +56,7 @@
             <label for="number">Include number?</label>
           </div>
           <div class="col text-center">
-            <input type="checkbox" id="number" checked />
+            <input type="checkbox" id="number" />
           </div>
         </div>
         <div class="button-container">
