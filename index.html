@@ -22,41 +22,43 @@
       <h1>Password generator</h1>
       <div class="container">
         <div class="row">
-          <div class="col">
-            <label for="charLength">CHoose your char lenght</label>
+          <div class="col-8">
+            <label for="charLength">Choose your char lenght</label>
           </div>
-          <div class="col">
+          <div class="col-4 text-center">
             <input type="range" id="charLength" />
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
+          <div class="col-8">
             <label for="capitalLetter">Include capital letters?</label>
           </div>
-          <div class="col">
-            <input type="checkbox" id="capitalLetter" checked/>
+          <div class="col text-center">
+            <input type="checkbox" id="capitalLetter" checked />
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
+          <div class="col-8">
             <label for="specialChar">Include special character?</label>
           </div>
-          <div class="col">
-            <input type="checkbox" id="specialChar" checked/>
+          <div class="col text-center">
+            <input type="checkbox" id="specialChar" checked />
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
+          <div class="col-8">
             <label for="number">Include number?</label>
           </div>
-          <div class="col">
-            <input type="checkbox" id="number" checked/>
+          <div class="col text-center">
+            <input type="checkbox" id="number" checked />
           </div>
         </div>
-
+        <div class="button-container">
+          <button class="btn btn-warning ms-10">Generate!</button>
+        </div>
         <textarea name="" id="password" cols="30" rows="10" readonly></textarea>
       </div>
     </div>
