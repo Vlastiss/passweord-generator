@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(38deg, #ffaacc, #aaccff);
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+.container {
+    width: 50%;
+    height: 40%;
+    border: 1px solid black;
+    padding: 20px;
+    align-items: center;
+
+    textarea {
+        height: 50px;
+        margin: 30px auto;
+    }
+}
