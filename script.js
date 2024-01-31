@@ -1,9 +1,21 @@
-const charLength = document.getElementById('charLength');
-const capitalLetter = document.getElementById('capitalLetter');
-const specialChar = document.getElementById('specialChar');
-const number = document.getElementById('number');
+var charLength = document.getElementById('charLength');
+var capitalLetter = document.getElementById('capitalLetter');
+var specialChar = document.getElementById('specialChar');
+var number = document.getElementById('number');
+var passwordLengthDisplay = document.getElementById('passwordLengthDisplay');
 
-const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+const numbers = '0123456789'
 const lowerCaseLetters = 'abcdefghijklmnopqrstuvwxyz'
 const capitalCaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-const specialCharacters = '!£$%^&*#@,._/'
+const specialCharacters = '!£$%^&*#@,._/+-*='
+
+function generatePassword () {
+
+}
+
+capitalLetter.addEventListener('click', function () {
+    if (capitalLetter.checked) {
+        console.log(capitalLetter.value)
+    }
+} )
+
